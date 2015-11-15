@@ -5,7 +5,6 @@
 //  Created by Jerry Herrera on 11/14/15.
 //  Copyright © 2015 Jerry Herrera. All rights reserved.
 //
-
 import UIKit
 
 class CreateChildProfileViewController: UIViewController {
@@ -13,7 +12,7 @@ class CreateChildProfileViewController: UIViewController {
     @IBOutlet weak var weightTextField: UITextField!
     @IBOutlet weak var birthdayPicker: UIDatePicker!
     weak var delegate: CreateChildViewControllerDelegate!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -26,6 +25,10 @@ class CreateChildProfileViewController: UIViewController {
     
     func dismissKeyboard() {
         view.endEditing(true)
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
     
     @IBAction func printNSDefaults(sender: AnyObject) {
@@ -51,16 +54,17 @@ class CreateChildProfileViewController: UIViewController {
             let newChild = Child(name: nameTextField.text!, weight: weight, birthday: birthdayPicker.date)
             
             var profiles = NSUserDefaults.standardUserDefaults().arrayForKey(Keys.ChildProfiles) as? [NSData]
+            let archivedChild = NSKeyedArchiver.archivedDataWithRootObject(newChild)
             if profiles == nil {
                 var arrayData = [NSData]()
-                let archivedData = NSKeyedArchiver.archivedDataWithRootObject(newChild)
-                arrayData.append(archivedData)
+                arrayData.append(archivedChild)
                 NSUserDefaults.standardUserDefaults().setObject(arrayData, forKey: Keys.ChildProfiles)
             } else {
-                profiles!.append(NSKeyedArchiver.archivedDataWithRootObject(newChild))
+                profiles!.append(archivedChild)
                 NSUserDefaults.standardUserDefaults().setObject(profiles!, forKey: Keys.ChildProfiles)
             }
-            delegate.presentTasksViewController()
+            NSUserDefaults.standardUserDefaults().setObject(archivedChild, forKey: Keys.CurrentChildProfile)
+            delegate.presentSWRevealViewController()
         } else {
             print("Weight invalid")
             return
@@ -70,7 +74,7 @@ class CreateChildProfileViewController: UIViewController {
 }
 
 protocol CreateChildViewControllerDelegate: class {
-    func presentTasksViewController()
+    func presentSWRevealViewController()
 }
 
 extension CreateChildProfileViewController: UITextFieldDelegate {

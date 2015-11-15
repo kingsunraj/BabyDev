@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C457C8231BF8190300967A7E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C457C8221BF8190300967A7E /* SWRevealViewController.m */; };
+		C47762991BF80BF100E8FB4A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47762981BF80BF100E8FB4A /* Task.swift */; };
+		C477629B1BF80CDC00E8FB4A /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477629A1BF80CDC00E8FB4A /* TaskDetailsViewController.swift */; };
+		C47762A81BF80CF700E8FB4A /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C477629D1BF80CF700E8FB4A /* UINavigationBar+FlatUI.m */; };
+		C47762AA1BF80CF700E8FB4A /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C47762A01BF80CF700E8FB4A /* UITableViewCell+FlatUI.m */; };
+		C47762AB1BF80CF700E8FB4A /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C47762A21BF80CF700E8FB4A /* UIColor+FlatUI.m */; };
+		C47762AC1BF80CF700E8FB4A /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C47762A41BF80CF700E8FB4A /* UIImage+FlatUI.m */; };
+		C47762AD1BF80CF700E8FB4A /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47762A61BF80CF700E8FB4A /* FUICellBackgroundView.m */; };
 		C4E53AE81BF7546D00FA1155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E53AE71BF7546D00FA1155 /* AppDelegate.swift */; };
 		C4E53AED1BF7546D00FA1155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E53AEB1BF7546D00FA1155 /* Main.storyboard */; };
 		C4E53AEF1BF7546D00FA1155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E53AEE1BF7546D00FA1155 /* Assets.xcassets */; };
@@ -37,6 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C457C8211BF8190300967A7E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C457C8221BF8190300967A7E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C47762981BF80BF100E8FB4A /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = ../Task.swift; sourceTree = "<group>"; };
+		C477629A1BF80CDC00E8FB4A /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
+		C477629C1BF80CF700E8FB4A /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		C477629D1BF80CF700E8FB4A /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		C477629E1BF80CF700E8FB4A /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		C47762A01BF80CF700E8FB4A /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		C47762A11BF80CF700E8FB4A /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		C47762A21BF80CF700E8FB4A /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		C47762A31BF80CF700E8FB4A /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		C47762A41BF80CF700E8FB4A /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		C47762A51BF80CF700E8FB4A /* FUICellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUICellBackgroundView.h; sourceTree = "<group>"; };
+		C47762A61BF80CF700E8FB4A /* FUICellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUICellBackgroundView.m; sourceTree = "<group>"; };
+		C47762A71BF80CF700E8FB4A /* BabyDev-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BabyDev-Bridging-Header.h"; sourceTree = "<group>"; };
 		C4E53AE41BF7546D00FA1155 /* BabyDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E53AE71BF7546D00FA1155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E53AEC1BF7546D00FA1155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,8 +74,8 @@
 		C4E53B091BF7546E00FA1155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E53B151BF7556B00FA1155 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		C4E53B191BF755B300FA1155 /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Child.swift; path = ../Child.swift; sourceTree = "<group>"; };
-		C4E53B1B1BF75C1300FA1155 /* CreateChildProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChildProfileViewController.swift; sourceTree = "<group>"; };
-		C4E53B1D1BF75E9700FA1155 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		C4E53B1B1BF75C1300FA1155 /* CreateChildProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateChildProfileViewController.swift; path = ../CreateChildProfileViewController.swift; sourceTree = "<group>"; };
+		C4E53B1D1BF75E9700FA1155 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = ../TasksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C457C8251BF81CA100967A7E /* SWRVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SWRVC;
+			path = BabyDev;
+			sourceTree = "<group>";
+		};
 		C4E53ADB1BF7546D00FA1155 = {
 			isa = PBXGroup;
 			children = (
-				C4E53B1B1BF75C1300FA1155 /* CreateChildProfileViewController.swift */,
-				C4E53B1D1BF75E9700FA1155 /* TasksViewController.swift */,
+				C457C8251BF81CA100967A7E /* SWRVC */,
 				C4E53AE61BF7546D00FA1155 /* BabyDev */,
 				C4E53AFB1BF7546D00FA1155 /* BabyDevTests */,
 				C4E53B061BF7546E00FA1155 /* BabyDevUITests */,
@@ -107,10 +137,27 @@
 			children = (
 				C4E53AE71BF7546D00FA1155 /* AppDelegate.swift */,
 				C4E53B151BF7556B00FA1155 /* Keys.swift */,
+				C477629A1BF80CDC00E8FB4A /* TaskDetailsViewController.swift */,
+				C47762981BF80BF100E8FB4A /* Task.swift */,
+				C457C8211BF8190300967A7E /* SWRevealViewController.h */,
+				C457C8221BF8190300967A7E /* SWRevealViewController.m */,
+				C4E53B1B1BF75C1300FA1155 /* CreateChildProfileViewController.swift */,
+				C4E53B1D1BF75E9700FA1155 /* TasksViewController.swift */,
 				C4E53B191BF755B300FA1155 /* Child.swift */,
+				C47762A71BF80CF700E8FB4A /* BabyDev-Bridging-Header.h */,
 				C4E53AEB1BF7546D00FA1155 /* Main.storyboard */,
 				C4E53AEE1BF7546D00FA1155 /* Assets.xcassets */,
 				C4E53AF01BF7546D00FA1155 /* LaunchScreen.storyboard */,
+				C477629C1BF80CF700E8FB4A /* UINavigationBar+FlatUI.h */,
+				C477629D1BF80CF700E8FB4A /* UINavigationBar+FlatUI.m */,
+				C477629E1BF80CF700E8FB4A /* UITableViewCell+FlatUI.h */,
+				C47762A01BF80CF700E8FB4A /* UITableViewCell+FlatUI.m */,
+				C47762A11BF80CF700E8FB4A /* UIColor+FlatUI.h */,
+				C47762A21BF80CF700E8FB4A /* UIColor+FlatUI.m */,
+				C47762A31BF80CF700E8FB4A /* UIImage+FlatUI.h */,
+				C47762A41BF80CF700E8FB4A /* UIImage+FlatUI.m */,
+				C47762A51BF80CF700E8FB4A /* FUICellBackgroundView.h */,
+				C47762A61BF80CF700E8FB4A /* FUICellBackgroundView.m */,
 				C4E53AF31BF7546D00FA1155 /* Info.plist */,
 			);
 			path = BabyDev;
@@ -265,10 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C457C8231BF8190300967A7E /* SWRevealViewController.m in Sources */,
+				C47762AB1BF80CF700E8FB4A /* UIColor+FlatUI.m in Sources */,
+				C477629B1BF80CDC00E8FB4A /* TaskDetailsViewController.swift in Sources */,
 				C4E53B161BF7556B00FA1155 /* Keys.swift in Sources */,
 				C4E53B1C1BF75C1300FA1155 /* CreateChildProfileViewController.swift in Sources */,
+				C47762AA1BF80CF700E8FB4A /* UITableViewCell+FlatUI.m in Sources */,
 				C4E53B1E1BF75E9700FA1155 /* TasksViewController.swift in Sources */,
 				C4E53B1A1BF755B300FA1155 /* Child.swift in Sources */,
+				C47762991BF80BF100E8FB4A /* Task.swift in Sources */,
+				C47762A81BF80CF700E8FB4A /* UINavigationBar+FlatUI.m in Sources */,
+				C47762AD1BF80CF700E8FB4A /* FUICellBackgroundView.m in Sources */,
+				C47762AC1BF80CF700E8FB4A /* UIImage+FlatUI.m in Sources */,
 				C4E53AE81BF7546D00FA1155 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +419,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWRevealViewController)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -401,6 +457,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWRevealViewController)-Swift.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -409,7 +466,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				INFOPLIST_FILE = BabyDev/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gerardo.BabyDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,7 +479,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				INFOPLIST_FILE = BabyDev/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gerardo.BabyDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,6 +555,7 @@
 				C4E53B0E1BF7546E00FA1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E53B0F1BF7546E00FA1155 /* Build configuration list for PBXNativeTarget "BabyDevTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +564,7 @@
 				C4E53B111BF7546E00FA1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E53B121BF7546E00FA1155 /* Build configuration list for PBXNativeTarget "BabyDevUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +573,7 @@
 				C4E53B141BF7546E00FA1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

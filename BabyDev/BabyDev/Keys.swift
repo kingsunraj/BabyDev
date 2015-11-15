@@ -13,4 +13,5 @@ struct Keys {
     static let ChildName = "child_name"
     static let ChildWeight = "child_weight"
     static let ChildBirthday = "child_birthday"
+    static let CurrentChildProfile = "current_profile"
 }
